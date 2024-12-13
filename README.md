@@ -1,11 +1,11 @@
 # magnets_study_1
-This repository contains files with the implementation of a control system for studying the effect of the plasma flow turbulence degree on heat transfer processes.
+This repository contains the files with the implementation of a control system for the studying of the effect of plasma flow turbulence degree on the heat transfer processes.
 
 This control system is based on two MOSFETs that alternately transmit voltage from the power source to two electromagnets.
 
-Two discrete outputs of the NUCLEO-F401RE debug board (PB4; PB5) are used to generate control pulses.
+Two discrete outputs of the NUCLEO-F401RE debug board (PB4; PB5) are used to generate the control pulses.
 
-The closed function "operation(...)" is used to create the necessary switching cycles.
+The private function "operation(...)" is used to creation of the switching cycles.
 
 The standard user button "Blue" is used to change the pattern (different duty cycles).
 
